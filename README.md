@@ -46,10 +46,21 @@
 
 ## 📊 GitHub Stats
 
+<!--
+  如果持续出现 "Error Fetching Resource"，说明公开 Vercel 实例的 GitHub API 限流了。
+  永久解决方案：部署你自己的 Vercel 实例。
+  步骤：
+    1. Fork https://github.com/anuraghazra/github-readme-stats
+    2. 在 https://vercel.com 导入这个 fork
+    3. 添加环境变量 PAT_1，值为你的 GitHub Personal Access Token（需 read:user 权限）
+    4. 部署后，把下面的 URL 中的域名换成你的 Vercel 域名
+  文档：https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
+-->
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hkxtor&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Hkxtor's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Hkxtor&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true&cache_seconds=86400" alt="Hkxtor's GitHub Stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hkxtor&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hkxtor&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&cache_seconds=86400" alt="Top Languages" />
 </p>
 
 ---
